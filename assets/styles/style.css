@@ -1,0 +1,33 @@
+@import '_reset.css';
+@import '_fonts.css';
+@import '_main.css';
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Samsung-Sharp', 'Open Sans', sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+}
